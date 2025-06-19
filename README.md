@@ -22,6 +22,8 @@ Czy jesteś pewien, że chcesz poznać wynik?
 - Zaskakujące zakończenie (czy na pewno to już koniec?)
 - Całość działa lokalnie, zero zewnętrznych API
 - Krwawe efekty i mroczny motyw wizualny
+- Losowe komunikaty strachu i migotanie ekranu
+- Efekt maszyny do pisania dla pytań
 
 ---
 
