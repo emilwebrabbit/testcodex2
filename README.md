@@ -21,6 +21,7 @@ Czy jesteś pewien, że chcesz poznać wynik?
 - Sekwencja dźwięków i obrazów wzbudzająca niepokój
 - Zaskakujące zakończenie (czy na pewno to już koniec?)
 - Całość działa lokalnie, zero zewnętrznych API
+- Krwawe efekty i mroczny motyw wizualny
 
 ---
 
@@ -29,3 +30,5 @@ Czy jesteś pewien, że chcesz poznać wynik?
 1. Sklonuj repo:
 ```bash
 git clone https://github.com/twoj-nick/quiz-mind.git
+```
+2. Otwórz plik `index.html` w przeglądarce.

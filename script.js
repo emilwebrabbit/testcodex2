@@ -30,6 +30,7 @@ const questionEl = document.getElementById('question');
 const answersEl = document.getElementById('answers');
 const nextBtn = document.getElementById('next');
 const audioEl = document.getElementById('glitch-audio');
+const bloodOverlay = document.getElementById('blood-overlay');
 
 audioEl.src = '';
 
@@ -67,6 +68,18 @@ function startGlitch() {
         osc.start();
         osc.stop(ctx.currentTime + 0.2);
         audioEl.src = 'data:,'; // mark as played
+    }
+    sprayBlood();
+}
+
+function sprayBlood() {
+    for (let i = 0; i < 3; i++) {
+        const drop = document.createElement('div');
+        drop.className = 'blood-splatter';
+        drop.style.left = Math.random() * 100 + 'vw';
+        drop.style.animationDelay = Math.random() * 0.5 + 's';
+        bloodOverlay.appendChild(drop);
+        setTimeout(() => drop.remove(), 4000);
     }
 }
 
